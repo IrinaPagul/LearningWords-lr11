@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lr11</title>
+  <link rel="stylesheet" href="style.css" >
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+<body>
+    <div class = "box">
+        <div class = "card" id = "card">
+            <div class = "card-front">
+                <p id = "wordEN"></p>
+            </div>
+            <div class = "card-back">
+                <p id = "wordUA"></p>
+            </div>
+        </div>
+        <h2 id = "trueSum">0</h2>
+        <h2 id = "falseSum">0</h2>
+        <input type = "text" id = "word" placeholder="Введіть переклад">
+        <button id = "rightArrow">⮕</button>
+        <h2 id = "wordNum">0/10</h2>
+        <button id = "checkBtn">Перевірити</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
